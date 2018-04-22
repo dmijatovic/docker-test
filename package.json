@@ -1,0 +1,15 @@
+{
+  "name": "docker",
+  "version": "0.0.1",
+  "description": "Test docker images with nginx",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "docker",
+    "nginx"
+  ],
+  "author": "Dusan Mijatovic",
+  "license": "ISC"
+}
