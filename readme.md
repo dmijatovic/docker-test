@@ -42,6 +42,7 @@ docker rmi <image name or id >
 docker image rm <image name or id>
 # OR 
 docker image prune
+
 # run container in interactive mode and access bin/bash
 # NOTE! after closing bash the image will deactivate/close itself
 
@@ -102,9 +103,7 @@ RUN apt-get update && apt-get upgrade -y && apt-get install -y openssh-server
 
 ```
 
-### Dockerfile syntax
-
-
+### Docker syntax
 ```docker
 # starting with image
 # pull basic debian stable image from docker hub
