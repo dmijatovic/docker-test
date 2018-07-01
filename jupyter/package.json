@@ -1,0 +1,16 @@
+{
+  "name": "jupyter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-image":"docker build -t dv4all/jupyter .",
+    "start":"docker run --name jupyter --rm -p 8888:8888 -v $(pwd)/work:/home/jovyan/work dv4all/jupyter"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "npm": "^6.1.0"
+  }
+}
