@@ -1,0 +1,5 @@
+
+# ignore content of mongodb data folder
+# this is location where data is saved
+
+data/*
